@@ -1,0 +1,10 @@
+torch
+ngrok
+pytorch
+fastapi
+uvicorn
+xformers
+langchain
+accelerate
+transformers
+bitsandbytes
