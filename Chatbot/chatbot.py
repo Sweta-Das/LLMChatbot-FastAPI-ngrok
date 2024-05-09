@@ -25,7 +25,7 @@ quant_config = BitsAndBytesConfig(
 tokenizer = LlamaTokenizerFast.from_pretrained(model_name)
 model = LlamaForCausalLM.from_pretrained(
     model_name,
-    quantization_config=quant_config,
+    # quantization_config=quant_config,
     low_cpu_mem_usage=True
 )
 

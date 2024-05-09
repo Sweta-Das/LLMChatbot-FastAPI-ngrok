@@ -12,3 +12,12 @@ async def generate_response(input_text: ChatbotInput):
         {"question": f"{input_text}"}
     )
     return {"response": response["text"]}
+
+
+@app.get("/chatbot/")
+async def generate_response():
+    # Generate response using the input text
+    # response = conversation(
+    #     {"question": f"{input_text}"}
+    # )
+    return {"Hi! How may I help you?"}

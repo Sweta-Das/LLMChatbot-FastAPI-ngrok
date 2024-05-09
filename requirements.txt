@@ -1,6 +1,5 @@
 torch
 ngrok
-pytorch
 fastapi
 uvicorn
 xformers
